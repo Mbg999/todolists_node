@@ -1,6 +1,6 @@
 # todolists_node
 
-A ToDo list app with node and mongodb
+A ToDo list app with auth system with node and mongodb
 
 used libraries:
   - bcrypt
