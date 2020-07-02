@@ -26,7 +26,7 @@ process.env.SEED = process.env.SEED || 'todo-seed-token';
  *   TOKEN EXPIRATION TIME development or production
  *  ===================
  */
-process.env.TOKEN_EXP_TIME = (process.env.TOKEN_EXP_TIME === 'dev') ? '48h' : 60*60*24*30; // 30 dias
+process.env.TOKEN_EXP_TIME = (process.env.NODE_ENV === 'dev') ? '48h' : 60*60*24*30; // 30 dias
 
 /**
  *  ===================
